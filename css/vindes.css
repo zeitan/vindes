@@ -1,0 +1,39 @@
+.carousel .item > .center  {
+    display: block;   margin:0 auto;
+}
+
+#we {
+    background: #535353;
+    position: relative; 	
+}
+
+#we span {
+display: block;
+width: 23px;
+height: 18px;
+position: absolute;
+bottom: -18px;
+}
+
+#we #right {
+right: 0;
+background: url(../img/flag-right.gif);
+}
+
+#we #left {
+left: 0;
+background: url(../img/flag-left.gif);
+}
+
+#we h2
+{
+   color: #FFFFFF
+}
+
+#we p 
+{
+   color: #FFFFFF
+}
+
+
+
