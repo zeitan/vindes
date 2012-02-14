@@ -2,9 +2,14 @@
     display: block;   margin:0 auto;
 }
 
+.margentop
+{
+    margin-top: 10px;
+}
+
 #we {
     background: #535353;
-    position: relative; 	
+    position: relative;
 }
 
 #we span {
@@ -30,11 +35,8 @@ background: url(../img/flag-left.gif);
    color: #FFFFFF
 }
 
-#we p 
+#we p
 {
    color: #FFFFFF
 }
-
-
-
 
