@@ -2,11 +2,21 @@
     display: block;   margin:0 auto;
 }
 
+.margentopcarrousel
+{
+        margin-top: -65px;
+}
+
 .margentop
 {
     margin-top: 10px;
 }
 
+.adjustlogoimg
+{
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
 
 #we {
     background: #535353;

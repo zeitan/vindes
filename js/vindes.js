@@ -7,3 +7,5 @@
 
     $('#myCarousel').carousel()
 
+    $(".collapse").collapse()
+
