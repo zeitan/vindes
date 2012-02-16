@@ -12,11 +12,19 @@
     margin-top: 10px;
 }
 
-.adjustlogoimg
+.roundeborder
+{
+    -webkit-border-radius: 21px 21px 21px 21px;
+    -moz-border-radius: 21px 21px 21px 21px;
+    border-radius: 21px 21px 21px 21px;
+}
+
+#adjustlogoimg
 {
     margin-top: -10px;
     margin-bottom: -10px;
 }
+
 
 #we {
     background: #535353;
@@ -41,20 +49,9 @@ left: 0;
 background: url(../img/flag-left.gif);
 }
 
-#we h2
-{
-   color: #FFFFFF
-}
-
+#we h2,
 #we p
 {
    color: #FFFFFF
-}
-
-.roundeborder
-{
-    -webkit-border-radius: 21px 21px 21px 21px;
-    -moz-border-radius: 21px 21px 21px 21px;
-    border-radius: 21px 21px 21px 21px;
 }
 
