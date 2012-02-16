@@ -51,3 +51,10 @@ background: url(../img/flag-left.gif);
    color: #FFFFFF
 }
 
+.roundeborder
+{
+    -webkit-border-radius: 21px 21px 21px 21px;
+    -moz-border-radius: 21px 21px 21px 21px;
+    border-radius: 21px 21px 21px 21px;
+}
+
