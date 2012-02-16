@@ -5,7 +5,6 @@
         e.preventDefault()
       })
 
-    $('#myCarousel').carousel()
-
-    $(".collapse").collapse()
+     $('#myCarousel').carousel()
+     $(".collapse").collapse()
 
