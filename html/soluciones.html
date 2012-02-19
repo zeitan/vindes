@@ -34,6 +34,7 @@
   <body>
 
     <!-- Le menu -->
+  <header>
     <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
@@ -43,19 +44,22 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <div class="nav-collapse">
-            <ul class="nav">
-              <li><a   href="../index.html" ><img src="../img/logovindesnoletras.png" alt="" id="adjustlogoimg"></a></li>
-              <li><a  data-toggle="modal" href="#myModal" >Quienes Somos</a></li>
-              <li><a href="">Soluciones</a></li>
-              <li><a href="#contacto">Contacto</a></li>
-            </ul>
-          </div><!--/.nav-collapse -->
+          <nav>
+            <div class="nav-collapse">
+              <ul class="nav">
+                <li><a   href="../index.html" ><img src="../img/logovindesnoletras.png" alt="" id="adjustlogoimg"></a></li>
+                <li><a  data-toggle="modal" href="#myModal" >Quienes Somos</a></li>
+                <li><a href="">Soluciones</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+              </ul>
+            </div><!--/.nav-collapse -->
+          </nav>
         </div>
       </div>
     </div>
+  </header>
 
-    <!-- Le who we are -->
+ <!-- Le who we are -->
     <div id="myModal" class="modal hide fade">
       <div class="modal-header">
         <a class="close" data-dismiss="modal" >&times;</a>
@@ -65,8 +69,8 @@
         <div class="row">
           <div class="span5">
             <div class="row">
-              <div class="span2"><center><img src="img/marco.png" alt="" class="Armando"></center></div>
-              <div class="span2 offset1"><img src="img/marco.png" alt="" class="Armando"></div>
+              <div class="span2"><img src="../img/marco.png" alt="" class="centrar"></div>
+              <div class="span2 offset1"><img src="../img/marco.png" alt="" class="centrar"></div>
             </div>
           </div>
         </div>
@@ -86,31 +90,34 @@
 
 
 
+  <section id="solutions">
     <div class="container">
 
       <!-- header image and photos -->
-      <div class="row">
-      	<div class="span10">
-		      <img src="../img/hdvindes.png" alt="Vindes">
-      	</div>
-      	 <div class="span2">
-      	  <div class="row">
-      	    <div class="span1">
-      	      <img src="../img/marco.png" alt="Antonio">
-      	      <br/>
-      	      <center><a href="http://www.twitter.com/zeitan" rel="popover" title="Development:" data-content="<pre>name:antonio.bastardo<br/>skills:ruby, c#, java, RoR, .NET<br/>database: sql server, pg sql, mysql<br/>view: agile development<br/>mail:antonio@vind.es</pre>" data-placement="left">@zeitan</a></center>
-      	    </div>
-      	     <div class="span1">
-      	      <img src="../img/marco.png" alt="" class="Armando">
-      	      <br/>
-      	      <center><a href="#" rel="popover" title="Development:" data-content="<pre>name:armando.paradiso<br/>skills:php, vb.net, .NET<br/>database: sql server, pg sql, mysql<br/>view: agile development<br/>mail:armando@vind.es</pre>" data-placement="left">Armando</a></center>
+      <header>
+        <div class="row">
+        	<div class="span10">
+		        <img src="../img/hdvindes.png"  alt="Vindes">
+        	</div>
+        	 <div class="span2">
+        	  <div class="row">
+        	    <div class="span1">
+        	      <img src="../img/marco.png" alt="Antonio" >
+        	      <br/>
+    <a href="http://www.twitter.com/zeitan" rel="popover" title="Development:" data-content="<pre>name:antonio.bastardo<br/>skills:ruby, c#, java, RoR, .NET<br/>database: sql server, pg sql, mysql<br/>view: agile development<br/>mail:antonio@vind.es</pre>" data-placement="left"><p class="pagination-centered">@zeitan</p></a>
+        	    </div>
+        	     <div class="span1">
+        	      <img src="../img/marco.png"  alt="Armando" >
+        	      <br/>
+        	      <a href="#" rel="popover" title="Development:" data-content="<pre>name:armando.paradiso<br/>skills:php, vb.net, .NET<br/>database: sql server, pg sql, mysql<br/>view: agile development<br/>mail:armando@vind.es</pre>" data-placement="left" class="pagination-centered"><p class="pagination-centered">Armando</p></a>
 
-      	    </div>
-      	  </div>
-      	</div>
-      </div>
+        	    </div>
+        	  </div>
+        	</div>
+        </div>
+      </header>
 
-      <!-Le Solutions-->
+      <!--Le Solutions-->
       <div class="span12 columns">
           <h1>Soluciones</h1>
           <p>Websites, Mobiles y Soluciones personalizadas pensadas en la PyMEs:</p>
@@ -155,24 +162,23 @@
       </div>
 
       </div>
-
-     <!-- Contact & Tech -->
-      <div class="row margentop">
-        <div class="span4">
-          <h2><a name="contacto">Contacto</a></h2>
-          <div class="row">
-            <div class="span2">
-              <span>
-              <address>
-              <strong>Vindes</strong></span>
-              <br/>
-              Los Bucares Mzna 5 Casa 1
-              <br/>
-              Unare 3 Mzna 4 Casa 12
-              </address>
-            </div>
-            <div class="span2">
-              <span>
+      
+      <footer>
+        <!-- Contact & Tech -->
+        <div class="row margentop">
+          <div class="span4">
+            <h2><a id="contacto">Contacto</a></h2>
+            <div class="row">
+              <div class="span2">
+                <address>
+                  <strong>Vindes</strong>
+                  <br/>
+                  Los Bucares Mzna 5 Casa 1
+                  <br/>
+                  Unare 3 Mzna 4 Casa 12
+                </address>
+              </div>
+              <div class="span2">
                 <address>
                   <a href="mailto:info@vind.es">info@vind.es</a>
                   <br/>
@@ -180,44 +186,45 @@
                   <br/>
                   +58-414 877 2307
                 </address>
-              </span>
+              </div>
+            </div>
+            <p class="pagination-centered">Puerto Ordaz, Bolívar, Venezuela</p>
+          </div>
+          <div class="span4 offset4">
+            <h2><a id="sabemos">Sabemos...</a></h2>
+            <div class="row">
+              <div class="span2">
+                <span>
+                Ruby, PHP, JS, HTML5, CSS3
+                <br/>
+                C#, VB.NET
+                <br/>
+                Java
+                </span>
+              </div>
+              <div class="span2">
+                <span>
+                    Rails, JQuery
+                    <br/>
+                    <br/>
+                    .NET
+                    <br/>
+                    JEE
+                </span>
+              </div>
             </div>
           </div>
-          <center>Puerto Ordaz, Bolívar, Venezuela</center>
         </div>
-        <div class="span4 offset4">
-          <h2><a name="#">Sabemos...</a></h2>
-          <div class="row">
-            <div class="span2">
-              <span>
-              Ruby, PHP, JS, HTML5, CSS3
-              <br/>
-              C#, VB.NET
-              <br/>
-              Java
-            </div>
-            <div class="span2">
-              <span>
-                  Rails, JQuery
-                  <br/>
-                  <br/>
-                  .NET
-                  <br/>
-                  JEE
-              </span>
-            </div>
-          </div>
-        </div>
+      </footer>
       </div>
-      </div>
+  </section>
       <hr>
 
       <footer>
         <p><strong>&copy; VINDES 2010-2012</strong></p>
       </footer>
 
-
-    </div> <!-- /container -->
+  
 
     <!-- Le javascript
     ================================================== -->

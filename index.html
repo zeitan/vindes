@@ -34,27 +34,30 @@
   <body>
 
     <!-- Le menu -->
-    <div class="navbar navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container">
-          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+    <header>
+      <div class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+          <div class="container">
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
 
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </a>
-          <div class="nav-collapse">
-
-            <ul class="nav">
-              <li><a   href="index.html" ><img src="img/logovindesnoletras.png" alt="" id="adjustlogoimg"></a></li>
-              <li><a  data-toggle="modal" href="#myModal" >Quienes Somos</a></li>
-              <li><a href="html/soluciones.html">Soluciones</a></li>
-              <li><a href="#contacto">Contacto</a></li>
-            </ul>
-          </div><!--/.nav-collapse -->
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </a>
+            <nav>
+              <div class="nav-collapse">
+                <ul class="nav">
+                  <li><a href="index.html" ><img src="img/logovindesnoletras.png" alt="" id="adjustlogoimg"></a></li>
+                  <li><a  data-toggle="modal" href="#myModal" >Quienes Somos</a></li>
+                  <li><a href="html/soluciones.html">Soluciones</a></li>
+                  <li><a href="#contacto">Contacto</a></li>
+                </ul>
+              </div><!--/.nav-collapse -->
+            </nav>
+          </div>
         </div>
       </div>
-    </div>
+    </header>
 
     <!-- Le who we are -->
     <div id="myModal" class="modal hide fade">
@@ -66,8 +69,8 @@
         <div class="row">
           <div class="span5">
             <div class="row">
-              <div class="span2"><center><img src="img/marco.png" alt="" ></center></div>
-              <div class="span2 offset1"><img src="img/marco.png" alt="" ></div>
+              <div class="span2"><img src="img/marco.png" alt="" class="centrar"></div>
+              <div class="span2 offset1"><img src="img/marco.png" alt="" class="centrar"></div>
             </div>
           </div>
         </div>
@@ -86,35 +89,37 @@
     </div>
 
 
-
+  <section id="main">
     <div class="container">
 
       <!-- header image and photos -->
-      <div class="row">
-      	<div class="span10">
-		      <img src="img/hdvindes.png"  alt="Vindes">
-      	</div>
-      	 <div class="span2">
-      	  <div class="row">
-      	    <div class="span1">
-      	      <img src="img/marco.png" alt="Antonio" >
-      	      <br/>
-      	      <center><a href="http://www.twitter.com/zeitan" rel="popover" title="Development:" data-content="<pre>name:antonio.bastardo<br/>skills:ruby, c#, java, RoR, .NET<br/>database: sql server, pg sql, mysql<br/>view: agile development<br/>mail:antonio@vind.es</pre>" data-placement="left">@zeitan</a></center>
-      	    </div>
-      	     <div class="span1">
-      	      <img src="img/marco.png" alt="" alt="Armando" >
-      	      <br/>
-      	      <center><a href="#" rel="popover" title="Development:" data-content="<pre>name:armando.paradiso<br/>skills:php, vb.net, .NET<br/>database: sql server, pg sql, mysql<br/>view: agile development<br/>mail:armando@vind.es</pre>" data-placement="left">Armando</a></center>
+      <header>
+        <div class="row">
+        	<div class="span10">
+		        <img src="img/hdvindes.png"  alt="Vindes">
+        	</div>
+        	 <div class="span2">
+        	  <div class="row">
+        	    <div class="span1">
+        	      <img src="img/marco.png" alt="Antonio" >
+        	      <br/>
+        	      <a href="http://www.twitter.com/zeitan" rel="popover" title="Development:" data-content="<pre>name:antonio.bastardo<br/>skills:ruby, c#, java, RoR, .NET<br/>database: sql server, pg sql, mysql<br/>view: agile development<br/>mail:antonio@vind.es</pre>" data-placement="left"><p class="pagination-centered">@zeitan</p></a>
+        	    </div>
+        	     <div class="span1">
+        	      <img src="img/marco.png"  alt="Armando" >
+        	      <br/>
+        	      <a href="#" rel="popover" title="Development:" data-content="<pre>name:armando.paradiso<br/>skills:php, vb.net, .NET<br/>database: sql server, pg sql, mysql<br/>view: agile development<br/>mail:armando@vind.es</pre>" data-placement="left" class="pagination-centered"><p class="pagination-centered">Armando</p></a>
 
-      	    </div>
-      	  </div>
-      	</div>
-      </div>
+        	    </div>
+        	  </div>
+        	</div>
+        </div>
+      </header>
 
       <!-- Carrousel -->
       <div class="row">
         <div class="span10">
-          <div class="row"">
+          <div class="row">
             <div class="span8 offset2">
               <div id="myCarousel" class="carousel slide margentopcarrousel">
                 <div class="carousel-inner">
@@ -138,7 +143,7 @@
           </div>
         </div>
       </div>
-
+  
       <!-- About Vindes -->
       <div class="row" id="we">
         <div class="span4">
@@ -162,38 +167,36 @@
         <span id="left"></span>
         <span id="right"></span>
       </div>
-
+    
+    <footer>
       <!-- Contact & Tech -->
       <div class="row margentop">
         <div class="span4">
-          <h2><a name="contacto">Contacto</a></h2>
+          <h2><a id="contacto">Contacto</a></h2>
           <div class="row">
             <div class="span2">
-              <span>
               <address>
-              <strong>Vindes</strong></span>
-              <br/>
-              Los Bucares Mzna 5 Casa 1
-              <br/>
-              Unare 3 Mzna 4 Casa 12
+                <strong>Vindes</strong>
+                <br/>
+                Los Bucares Mzna 5 Casa 1
+                <br/>
+                Unare 3 Mzna 4 Casa 12
               </address>
             </div>
             <div class="span2">
-              <span>
-                <address>
-                  <a href="mailto:info@vind.es">info@vind.es</a>
-                  <br/>
-                  +58-426 594 0458
-                  <br/>
-                  +58-414 877 2307
-                </address>
-              </span>
+              <address>
+                <a href="mailto:info@vind.es">info@vind.es</a>
+                <br/>
+                +58-426 594 0458
+                <br/>
+                +58-414 877 2307
+              </address>
             </div>
           </div>
-          <center>Puerto Ordaz, Bolívar, Venezuela</center>
+          <p class="pagination-centered">Puerto Ordaz, Bolívar, Venezuela</p>
         </div>
         <div class="span4 offset4">
-          <h2><a name="#">Sabemos...</a></h2>
+          <h2><a id="sabemos">Sabemos...</a></h2>
           <div class="row">
             <div class="span2">
               <span>
@@ -202,6 +205,7 @@
               C#, VB.NET
               <br/>
               Java
+              </span>
             </div>
             <div class="span2">
               <span>
@@ -216,14 +220,16 @@
           </div>
         </div>
       </div>
+    </footer>
       </div>
+  </section>
       <hr>
 
       <footer>
         <p><strong>&copy; VINDES 2010-2012</strong></p>
       </footer>
 
-    </div> <!-- /container -->
+  
 
     <!-- Le javascript
     ================================================== -->
