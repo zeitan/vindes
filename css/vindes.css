@@ -6,7 +6,11 @@
     display: block;   margin:0 auto;
 }
 
-
+.borderfoto
+{
+   padding:1px;
+   border:1px solid #021a40;	
+}
 
 .margentopcarrousel
 {
@@ -66,3 +70,8 @@ background: url(../img/flag-left.gif);
    color: #FFFFFF
 }
 
+#armando
+{
+   width:  83px;
+   height: 70px	
+}
